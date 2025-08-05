@@ -1,0 +1,16 @@
+#-- Core libraries for data manipulation
+pandas
+numpy
+openpyxl
+ipykernel
+
+#-- For data visualization in notebooks
+matplotlib
+seaborn
+
+#-- For training ML/DL models
+tensorflow
+scikit-learn
+
+#-- For reading .yaml configuration files
+PyYAML
