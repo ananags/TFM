@@ -3,6 +3,7 @@ pandas
 numpy
 openpyxl
 ipykernel
+statsmodels
 
 #-- For data visualization in notebooks
 matplotlib
@@ -13,4 +14,4 @@ tensorflow
 scikit-learn
 
 #-- For reading .yaml configuration files
-PyYAML
+pyyaml
