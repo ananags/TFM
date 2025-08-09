@@ -19,13 +19,15 @@ data_preparation:
 
 
 # =================================================================
-# PARAMETERS FOR DATA ANALYSIS (/notebooks/analysis/IPTO/1_analysis.ipynb)
+# PARAMETERS FOR DATA ANALYSIS (/notebooks/analysis/*/1_analysis.ipynb)
 # =================================================================
 1_analysis:
   paths:
-    base_data_dir: '../../../data/raw/IPTO/'
-    paros_pattern: 'Paros*.xlsx'
-    syros_pattern: 'Syros*.xlsx'
+    base_data_dir: '../../../data/raw/'
+    paros_pattern: 'IPTO/Paros*.xlsx'
+    syros_pattern: 'IPTO/Syros*.xlsx'
+    MesaDelSol_pattern: 'MesaDelSol/*.csv'
+
 
   # Excels parameters
   excel_settings:

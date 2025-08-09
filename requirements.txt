@@ -4,6 +4,7 @@ numpy
 openpyxl
 ipykernel
 statsmodels
+tqdm
 
 #-- For data visualization in notebooks
 matplotlib
