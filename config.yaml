@@ -23,10 +23,11 @@ data_preparation:
 # =================================================================
 1_analysis:
   paths:
-    base_data_dir: '../../../data/raw/'
-    paros_pattern: 'IPTO/Paros*.xlsx'
-    syros_pattern: 'IPTO/Syros*.xlsx'
-    MesaDelSol_pattern: 'MesaDelSol/*.csv'
+    base_data_dir: '../../../data/'
+    paros_pattern: 'raw/IPTO/Paros*.xlsx'
+    syros_pattern: 'raw/IPTO/Syros*.xlsx'
+    MesaDelSol_pattern: 'raw/MesaDelSol/*.csv'
+    clean_data: 'clean/'
 
 
   # Excels parameters
